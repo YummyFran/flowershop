@@ -1,0 +1,82 @@
+:root {
+    --nav-height: 50px;
+    --color-theme: #fbff0b;
+    --color-tone: #d3d616;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: var(--color-theme);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    height: var(--nav-height);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: inherit;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+
+nav ul a {
+    text-decoration: none;
+    padding: 10px;
+    color: inherit;
+}
+
+section#home, section#about {
+    display: flex;
+    align-items: center;
+}
+
+section#home {
+    background-image: url("../flowers/cosmos.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+section#about .row {
+    height: 50vh;
+}
+
+section#shop .row {
+    height: 50vh;
+}
+.viewmore {
+    background-color: var(--color-tone);
+    padding: 0.5rem 4rem;
+    color: black;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.image1 {
+    background-image: url("../flowers/flower2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.image2 {
+    background-image: url("../flowers/flower1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.image3 {
+    background-image: url("../flowers/flower3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.image4 {
+    background-image: url("../flowers/flower4.jpg");
+    background-position: center;
+    background-size: cover;
+}
